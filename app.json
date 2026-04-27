@@ -1,0 +1,39 @@
+{
+  "expo": {
+    "name": "AskAI Ultra Pro Max",
+    "slug": "askaiultrapromax",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "automatic",
+    "newArchEnabled": true,
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#0A0A0F"
+    },
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.askai.ultrapromax"
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#0A0A0F"
+      },
+      "package": "com.askai.ultrapromax"
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "plugins": [
+      "expo-haptics",
+      [
+        "react-native-reanimated",
+        {
+          "strict": true
+        }
+      ]
+    ]
+  }
+}
